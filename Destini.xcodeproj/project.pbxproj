@@ -35,6 +35,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6ABF3ECC21557D93002590C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBB1C7401B9633A60011F5C3 /* AppDelegate.swift */,
+				EBB1C7421B9633A60011F5C3 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6ABF3ECD21557DA0002590C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBB1C7441B9633A60011F5C3 /* Main.storyboard */,
+				EBB1C7471B9633A60011F5C3 /* Images.xcassets */,
+				EBB1C7491B9633A60011F5C3 /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6ABF3ECF21557DC4002590C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		EBB1C7321B9633A60011F5C3 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +80,9 @@
 		EBB1C73D1B9633A60011F5C3 /* Destini */ = {
 			isa = PBXGroup;
 			children = (
-				EBB1C7401B9633A60011F5C3 /* AppDelegate.swift */,
-				EBB1C7421B9633A60011F5C3 /* ViewController.swift */,
-				EBB1C7441B9633A60011F5C3 /* Main.storyboard */,
-				EBB1C7471B9633A60011F5C3 /* Images.xcassets */,
-				EBB1C7491B9633A60011F5C3 /* LaunchScreen.xib */,
+				6ABF3ECF21557DC4002590C6 /* Model */,
+				6ABF3ECD21557DA0002590C6 /* View */,
+				6ABF3ECC21557D93002590C6 /* Controller */,
 				EBB1C73E1B9633A60011F5C3 /* Supporting Files */,
 			);
 			path = Destini;
@@ -99,7 +123,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "London App Brewery";
 				TargetAttributes = {
 					EBB1C73A1B9633A60011F5C3 = {
@@ -183,12 +207,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -236,12 +262,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
